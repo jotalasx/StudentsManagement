@@ -18,14 +18,14 @@ public class PreviousStudentEntity {
 
     @Id
     @GeneratedValue
-    @Column(name = "Student ID")
+    @Column(name = "StudentID")
     private Long studentID;
 
     // Si el parámetro y la columna se llaman igual, no hace falta especificar nada
 
-    @Column(name = "Full Name")
+    @Column(name = "FullName")
     private String fullName;
 
-    @Column(name = "Date of Birth")
+    @Column(name = "DateOfBirth")
     private String birthDate;
 }
